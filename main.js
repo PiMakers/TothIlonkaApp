@@ -23,7 +23,7 @@ var stopping = 0;
 var startTime;
 
 var opts = {
-    'audioOutput': 'hdmi', //  'hdmi' | 'local' | 'both'.
+    'audioOutput': 'local', //  'hdmi' | 'local' | 'both'.
     'blackBackground': true, //false | true | default: true.
     'disableKeys': true, //false | true | default: false.
     'disableOnScreenDisplay': true, //false | true | default: false.
@@ -31,7 +31,7 @@ var opts = {
     'subtitlePath': '', //default: "".
     'startAt': 0, //default: 0.
     'startVolume': 1.0, //0.0 ... 1.0 default: 1.0 ,
-    'alpha': 0
+    'alpha': 255
 
 };
 
